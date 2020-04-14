@@ -1,13 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
 /* .header{
 
 } */
 
-#header-link{
+/* #header-link{
     color: cornflowerblue;
     text-decoration-color: cornflowerblue;
     font-size: medium;
-}
-/* 
-#author-img{
-
 } */
+
+#author-img{
+    border-radius: 50%;
+}
