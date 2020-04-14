@@ -1,0 +1,56 @@
+@import url("./nav-bar.css");
+@import url("./content.css");
+@import url("./footer.css");
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+/* .big-container {
+    display: grid;
+    width: auto;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-areas:
+    "one one one"
+    "two two two"
+    "three three three"
+    "four four four";
+    border: 2px solid yellowgreen;
+    justify-content: center;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+
+#one {
+    grid-area: one;
+}
+
+
+#two {
+    grid-area: two;
+}
+
+
+#three {
+    grid-area: three;
+}
+
+
+#three {
+    grid-area: four;
+} */
