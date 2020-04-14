@@ -1,7 +1,17 @@
-.nav-bar{
-    position: fixed;
-    top: 0;
-    width: auto;
+.nav-bar {
+    /* position: fixed; */
+    /* top: 0;
+    width: auto; */
     color: cornflowerblue;
-    font-size: medium;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 30px 20px;
+    
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: cornflowerblue;
 }
