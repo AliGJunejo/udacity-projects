@@ -11,6 +11,12 @@ h1 {
 }
 
 
+figcaption{
+    text-align: center;
+    color: gray;
+}
+
+
 .img-text {
     text-align: center;
 }
