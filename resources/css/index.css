@@ -10,18 +10,18 @@ body {
     /* margin: auto 15%; */
 }
 
-/* .big-container {
+/* .big-container { */
     display: grid;
-    width: auto;
+    width: 95vw;
     margin: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 20px;
     grid-row-gap: 30px;
     grid-template-areas:
     "one one one"
     "two two two"
     "three three three"
+    /* "one two three" */
     "four four four";
     border: 2px solid yellowgreen;
     justify-content: center;
@@ -30,6 +30,7 @@ body {
 
 .box {
     display: flex;
+    width: 90vw;
     align-items: center;
     justify-content: center;
     border: 1px solid red;
@@ -54,4 +55,4 @@ body {
 
 #three {
     grid-area: four;
-} */
+}
