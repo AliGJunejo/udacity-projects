@@ -1,7 +1,31 @@
-#author-img {
-    border-radius: 50%;
-}
-
 .footer {
     color: dimgray;
 }
+
+
+#footer-first-row {
+    display: flex;
+ }
+
+
+#author-img {
+    flex: 1;
+}
+
+
+#author-img img {
+    border-radius: 50%;
+}
+
+
+#footer-content {
+    flex: 5
+}
+
+
+#footer-second-row {
+    padding: 0 1rem 1rem 0;
+    text-align: right;
+}
+
+
