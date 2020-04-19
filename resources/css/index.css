@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin: 0 10% 10% 3%;
     line-height: 1.5em;
     /* margin: auto 15%; */
 }
@@ -16,15 +16,16 @@ body {
     margin: auto;
     /* grid-template-columns: repeat(3, 1fr); */
     grid-template-rows: repeat(4, 1fr);
-    grid-row-gap: 10%;
+    grid-row-gap: 5%;
     /* grid-template-areas: */
     /* "one one one"
     "two two two"
     "three three three"
     "one two three" */
     /* "four four four"; */
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     /* justify-content: center; */
+    max-height: 20rem;
 }
 
 
@@ -33,9 +34,10 @@ body {
     /* width: 90vw; */
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
-    padding: 15px;
-    margin: auto;
+    /* border: 1px solid red; */
+    /* padding-left: 5%; */
+    margin: 0;
+    
 }
 
 
@@ -44,12 +46,14 @@ body {
 /*     grid-area: one one one; */
     width: 100%;
     /* margin-top: 30% 0; */
+    max-height: 10rem;
 }
 
 
 #logo {
-  /* flex: 1; */
+  flex: 1;
   width: 5%;
+  max-width: 5rem;
 }
 
 
@@ -61,6 +65,7 @@ body {
 #three {
     /* grid-area: three; */
     justify-content: space-between;
+    height: 20rem;
 }
 
 
