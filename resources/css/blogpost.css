@@ -48,6 +48,10 @@ h3 {
     color: gray;
 }
 
+blockquote {
+    color: dimgray;
+}
+
 
 .fa {
     padding: 20px;
